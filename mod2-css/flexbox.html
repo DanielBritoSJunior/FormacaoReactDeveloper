@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Aula de FlexBox</title>
+    <style>
+        .flex{
+            display: flex;
+            width: 50%;
+            justify-content: space-around;
+            margin: 50px;
+        }
+        .item{
+            width: 80px;
+            height: 80px;
+            background-color: blueviolet;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        .item:hover{
+            background-color: blue;
+        }
+
+        .botao{
+            width: 80px;
+            height: 80px;
+            background-color: blueviolet;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            padding: 10px;
+            margin-right: 50px;
+            
+            
+        }
+
+        .botao:hover{
+            cursor: pointer;
+            border-color: royalblue;
+        }
+    </style>
+</head>
+
+<body>
+    <hr />
+    <h2>FlexBox</h2>
+    <div class="flex">
+        <div class="item">a</div>
+        <div class="item">b</div>
+        <div class="item">c</div>
+    </div>
+
+    <div class="botao">
+        <button>Enviar</button>
+    </div>
+    
+    
+</body>
+</html>
